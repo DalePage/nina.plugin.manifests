@@ -1,0 +1,38 @@
+{
+    "Name": "Add To CPWI Alt-Az Alignment Model",
+    "Identifier": "879618d2-0a61-4b09-b14e-ef2b55583b84",
+    "Version": {
+        "Major": "0",
+        "Minor": "0",
+        "Patch": "0",
+        "Build": "4"
+    },
+    "Author": "ADPUK",
+    "Homepage": "",
+    "Repository": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin",
+    "License": "MPL-2.0",
+    "LicenseURL": "https://www.mozilla.org/en-US/MPL/2.0/",
+    "ChangelogURL": "",
+    "Tags": [
+        "Celestron CPWI Alignment Model AltAz Alt-Az AZ"
+    ],
+    "MinimumApplicationVersion": {
+        "Major": "3",
+        "Minor": "2",
+        "Patch": "0",
+        "Build": "2001"
+    },
+    "Descriptions": {
+        "ShortDescription": "This plugin is designed to work with Celestron AZ mounts connected via CPWI.\nIf it cannot detect a suitable mount then its functions will be disabled.",
+        "LongDescription": "This plug-in appears in the imaging tab and can be used to create, or add to, \r\nan alignment model for users of CPWI controlled Alt-Az mounts.\r\n\r\nThe user can select the number of points in both Azimuth and Altitude. Once triggered the mount is moved to the selected\r\ncordinates and an image obtained and plate solved with the actual RA/Dec then fed back to CPWI as an alignment location.\r\n\r\nAlso included are sequencer actions to plate solve an image and update the alignment model. From my understanding\r\nof various forum posts and observations the mount \"Sync\" command in CPWI does not update the alignment model and this is an attempt\r\nto overcome this challenge. Potentially these could be called from a trigger but I have not yet had time to do that yet.\r\n\r\nThe plugin has been developed and tested using CPWI with a Celestron Astro-Fi 6 mount and scope. It is beleived it will \r\nwork with other CPWI controlled Alt Azimuth mounts but it cannot be guranteed.",
+        "FeaturedImageURL": "",
+        "ScreenshotURL": "",
+        "AltScreenshotURL": ""
+    },
+    "Installer": {
+        "URL": "https://github.com/DalePage/AddToAlignmentModel_NINA_Plugin/releases/download/0.0.0.5/ADPUK.NINA.AddToAlignmentModel.0.0.0.5.zip",
+        "Type": "ARCHIVE",
+        "Checksum": "BF92B8D775F0836FFC827FD598C9144178370F9A2D34B0F44083BAD790C23149",
+        "ChecksumType": "SHA256"
+    }
+}
